@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:faraz-cloudops-org/frz_infra2026.git',
+                    url: 'git@github.com:Faraz7/infra2026.git',
                     credentialsId: 'git-ssh-key'
             }
         }
